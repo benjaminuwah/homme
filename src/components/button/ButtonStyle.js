@@ -7,4 +7,5 @@ export const ButtonField = styled.button`
     border: 0px;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 `;

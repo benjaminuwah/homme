@@ -23,6 +23,9 @@ export const Menu = styled.div`
 
     a {
         color: #000;
+        &:hover {
+            color: #ffc701;
+        }
     }
     
 `;
