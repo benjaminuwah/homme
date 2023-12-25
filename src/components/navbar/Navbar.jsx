@@ -1,10 +1,17 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Container } from '../../GlobalStyle'
 import { logo } from '../../assets';
-import { Menu, Nav, NavWrapper } from './NavbarStyle'
+import { BtnGroup, Menu, Nav, NavWrapper } from './NavbarStyle'
 import Button from '../button/Button';
+import FeatherIcon from 'feather-icons-react/build/FeatherIcon';
+import { useState } from 'react';
+
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+
+
+
   return (
     <NavWrapper>
       <Container>
@@ -12,7 +19,8 @@ const Navbar = () => {
           <div className="logo">
             <img src={logo} width={120} />
           </div>
-          <Menu>
+
+          <Menu className={show && "show"}>
             <ul>
               <li><a href="/">Designs</a></li>
               <li><a href="/">Interiors</a></li>
@@ -21,10 +29,12 @@ const Navbar = () => {
             </ul>
           </Menu>
 
-          <div>
+          <BtnGroup className={show && "show"}>
             <Button variant='text'>Sign In</Button>
             <Button>Sign Up</Button>
-          </div>
+          </BtnGroup>
+
+          <FeatherIcon onClick={() => setShow(!show)} icon={show ? "x" : "menu"} className='menu-icon' />
 
         </Nav>
       </Container>

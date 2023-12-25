@@ -4,12 +4,18 @@ const GlobalStyle = createGlobalStyle`
     body {
         margin: 0px;
         background: #FFFCF0;
-        font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
+        font-family: 'Sora', sans-serif;
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 40px;
+        text-transform: capitalize;
+        margin: 0;
+    }
+
+    p {
+        color: #575757;
     }
 
     a {
@@ -22,6 +28,18 @@ export const Container = styled.div`
     max-width: 1200px;
     margin: auto;
     position: relative;
+`;
+
+export const Row = styled.div`
+    display: flex;
+    gap: 40px;
+    >div {
+        flex: 1;
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 
