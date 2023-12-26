@@ -1,10 +1,14 @@
 import React from 'react'
+import { FooterWrapper } from './FooterStyle';
+import { Container } from '../../GlobalStyle';
 
 const Footer = () => {
   return (
-    <div>
+    <FooterWrapper>
+      <Container>
         <h1>Footer Content Area</h1>
-    </div>
+      </Container>
+    </FooterWrapper>
   )
 }
 

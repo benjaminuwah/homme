@@ -19,8 +19,6 @@ export const NavWrapper = styled.div`
 
     @media (max-width: 768px) {
         border-bottom: 1px solid grey;
-        /* background: #fff;
-        height: 100vh; */
 
         .menu-icon {
             display: block;

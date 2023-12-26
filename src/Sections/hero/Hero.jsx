@@ -10,12 +10,12 @@ const Hero = () => {
       <HeroWrapper>
         <Container>
           <Row>
-            <div className="left">
+            <div>
               <h1>Design your dream home</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus debitis facere sit, repellendus saepe deleniti neque praesentium distinctio, nihil cum. Quibusdam exercitationem eos deserunt quam illum est commodi optio?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus debitis facere sit, repellendus saepe deleniti neque praesentium distinctio, nihil cum.</p>
               <Button>Explore Gallery</Button>
             </div>
-            <div className="right">
+            <div>
               <img src={hero_img} alt="" width='100%' />
             </div>
           </Row>

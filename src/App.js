@@ -9,6 +9,11 @@ function App() {
       <GlobalStyle />
         <Navbar />
         <Hero />
+        <Explore />
+        <Interiors />
+        <CaseStudies />
+        <Clients />
+        <Footer />
     </div>
 
   );
