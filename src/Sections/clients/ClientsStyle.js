@@ -29,6 +29,10 @@ export const ClientsWrapper = styled.div`
         opacity: 50%;
     }
 
+    .client_img {
+        cursor: pointer;
+    }
+
     @media (max-width: 768px) {
 
         .clients {
