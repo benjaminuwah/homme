@@ -21,6 +21,10 @@ const GlobalStyle = createGlobalStyle`
     a {
         text-decoration: none;
     }
+
+    li {
+        list-style: none;
+    }
 `;
 
 export const Container = styled.div`
@@ -39,6 +43,14 @@ export const Row = styled.div`
 
     @media (max-width: 768px) {
         flex-direction: column;
+    }
+`;
+
+export const Row_2 = styled.div`
+    display: flex;
+    gap: 40px;
+    >div {
+        flex: 2;
     }
 `;
 
