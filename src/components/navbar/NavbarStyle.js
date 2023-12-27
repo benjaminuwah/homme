@@ -47,6 +47,13 @@ export const Menu = styled.div`
 
     a {
         color: #000;
+        font-family: Sora;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+
         &:hover {
             color: #ffc701;
         }

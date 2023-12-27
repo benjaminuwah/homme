@@ -2,11 +2,6 @@ import styled from "styled-components";
 
 export const ClientsWrapper = styled.div`
     padding: 50px 0px;
-    /* margin-bottom: 100px; */
-    /* background: #fff; */
-    border-radius: 0 0 50px 50px;
-    margin-bottom: -50px;
-    position: relative;
 
     h1 {
         color: #000;
@@ -32,5 +27,19 @@ export const ClientsWrapper = styled.div`
     .clients {
         display: flex;
         opacity: 50%;
+    }
+
+    @media (max-width: 768px) {
+
+        .clients {
+            display: flex
+        }
+
+
+        img {
+            width: 100%;
+            display: block;
+            flex-wrap: wrap;
+        }
     }
 `;

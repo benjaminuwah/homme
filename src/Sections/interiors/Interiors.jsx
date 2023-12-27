@@ -1,12 +1,39 @@
 import React from 'react'
 import { InteriorWrapper } from './InteriorStyles'
-import { Container } from '../../GlobalStyle'
+import { Container, Row } from '../../GlobalStyle'
+import { banner1 } from '../../assets'
+
 
 const Interiors = () => {
   return (
     <InteriorWrapper>
       <Container>
-        <h1>Interior Content</h1>
+
+        <Row>
+          <div className="main">
+            <div>
+              <h1>explore designs</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu scelerisque <br /> accumsan, a vestibulum eget velit.</p>
+            </div>
+            <div>
+              icon_arrow
+            </div>
+          </div>
+        </Row>
+
+        <div className="gallery">
+          <div className="text">
+            <h1>Aesthetic Office</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <hr />
+            <h4>conference room <br /> <span>8 x 16 Feet</span></h4>
+          </div>
+
+          <div className="images">
+            <img src={banner1} alt="" />
+            <img src={banner1} alt="" />
+          </div>
+        </div>
       </Container>
     </InteriorWrapper>
   )

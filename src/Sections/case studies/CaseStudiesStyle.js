@@ -17,6 +17,7 @@ export const StudiesWrapper = styled.div`
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        padding-bottom: 20px;
     }
 
     .text {
