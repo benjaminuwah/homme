@@ -9,10 +9,10 @@ function App() {
       <GlobalStyle />
         <Navbar />
         <Hero />
-        <Explore id="Designs" />
-        <Interiors id="interiors" />
-        <CaseStudies id="CaseStudies" />
-        <Clients id="Clients" />
+        <Explore />
+        <Interiors />
+        <CaseStudies />
+        <Clients />
         <Footer />
     </div>
 
