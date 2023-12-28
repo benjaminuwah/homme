@@ -6,7 +6,7 @@ import { myClient } from '../../constants';
 
 const Clients = () => {
   return (
-    <ClientsWrapper>
+    <ClientsWrapper id='Clients'>
       <Container>
         <h1>Clients</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu scelerisque <br /> accumsan, a vestibulum eget velit.</p>
@@ -15,7 +15,7 @@ const Clients = () => {
           {
             myClient.map((value) => (
               <ul>
-                <img src={value.icon} alt="" width="100%" />
+                <img src={value.icon} alt="" width="100%" className='client_img' />
               </ul>
             ))
           }

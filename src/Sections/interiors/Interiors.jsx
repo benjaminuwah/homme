@@ -6,13 +6,13 @@ import { banner1 } from '../../assets'
 
 const Interiors = () => {
   return (
-    <InteriorWrapper>
+    <InteriorWrapper id="Interiors">
       <Container>
 
         <Row>
           <div className="main">
             <div>
-              <h1>explore designs</h1>
+              <h1>intuitive interiors</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu scelerisque <br /> accumsan, a vestibulum eget velit.</p>
             </div>
             <div>

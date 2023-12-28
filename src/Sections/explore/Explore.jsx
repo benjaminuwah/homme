@@ -5,7 +5,7 @@ import { ExploreWrapper } from "./ExploreStyle"
 
 const Explore = () => {
   return (
-    <ExploreWrapper>
+    <ExploreWrapper id="Designs">
       <Container>
         <h1>explore designs</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu scelerisque <br /> accumsan, a vestibulum eget velit.</p>

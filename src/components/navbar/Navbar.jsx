@@ -5,6 +5,7 @@ import { BtnGroup, Menu, Nav, NavWrapper } from './NavbarStyle'
 import Button from '../button/Button';
 import FeatherIcon from 'feather-icons-react/build/FeatherIcon';
 import { useState } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 const Navbar = () => {
@@ -17,15 +18,17 @@ const Navbar = () => {
       <Container>
         <Nav>
           <div className="logo">
-            <img src={logo} width={120} />
+            <AnchorLink href='#Home'>
+              <img src={logo} width={120} />
+            </AnchorLink>
           </div>
 
           <Menu className={show && "show"}>
             <ul>
-              <li><a href="/">Designs</a></li>
-              <li><a href="/">Interiors</a></li>
-              <li><a href="/">Case Studies</a></li>
-              <li><a href="/">Clients</a></li>
+              <li><AnchorLink href="#Designs">Designs</AnchorLink></li>
+              <li><AnchorLink href="#Interiors">Interiors</AnchorLink></li>
+              <li><AnchorLink href="#CaseStudies">Case Studies</AnchorLink></li>
+              <li><AnchorLink href='#Clients'>Clients</AnchorLink></li>
             </ul>
           </Menu>
 

@@ -5,14 +5,14 @@ import { CaseStudies, Clients, Explore, Hero, Interiors } from "./Sections"
 
 function App() {
   return (
-    <div>
+    <div id="Home">
       <GlobalStyle />
         <Navbar />
         <Hero />
-        <Explore />
-        <Interiors />
-        <CaseStudies />
-        <Clients />
+        <Explore id="Designs" />
+        <Interiors id="interiors" />
+        <CaseStudies id="CaseStudies" />
+        <Clients id="Clients" />
         <Footer />
     </div>
 

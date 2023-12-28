@@ -5,7 +5,7 @@ import Frame4 from "../../assets/Frame 4.png"
 
 const CaseStudies = () => {
   return (
-    <StudiesWrapper>
+    <StudiesWrapper id="CaseStudies">
       <Container>
         <h1>case studies</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu scelerisque <br /> accumsan, a vestibulum eget velit.</p>
