@@ -27,6 +27,7 @@ export const ClientsWrapper = styled.div`
     .clients {
         display: flex;
         opacity: 50%;
+        justify-content: center;
     }
 
     .client_img {
@@ -36,7 +37,10 @@ export const ClientsWrapper = styled.div`
     @media (max-width: 768px) {
 
         .clients {
-            display: flex
+            display: flex;
+            flex-direction: row;
+            overflow: scroll;
+            /* flex-wrap: wrap; */
         }
 
 

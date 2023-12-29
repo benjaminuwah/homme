@@ -13,12 +13,12 @@ const Explore = () => {
         <Row>
           <div>
             <img src={img_1} alt="" width="100%" />
-            <p className="text">Residential Designs</p>
+            <p className="text"><span>Residential</span> Designs</p>
           </div>
 
           <div>
             <img src={img_2} alt="" width="100%" />
-            <p className="text">Corporate Designs</p>
+            <p className="text"><span>Corporate</span> Designs</p>
           </div>
         </Row>
       </Container>

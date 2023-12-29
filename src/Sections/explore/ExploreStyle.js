@@ -30,5 +30,9 @@ export const ExploreWrapper = styled.div`
         line-height: normal;
         text-transform: capitalize;
         text-align: left;
+        
+        span {
+            border-bottom: 1px solid #000;
+        }
     }
 `;
