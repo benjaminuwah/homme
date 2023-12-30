@@ -1,7 +1,7 @@
 import React from 'react'
 import { ClientsWrapper } from './ClientsStyle';
 import { Container } from '../../GlobalStyle';
-import { myClient } from '../../constants';
+// import { myClient } from '../../constants';
 import { client1, client2, client3, client4, client5 } from '../../assets';
 import { client6 } from '../../assets/client_images/lndex';
 
@@ -21,12 +21,12 @@ const Clients = () => {
               </ul>
             ))
           } */}
-          <img src={client1} />
-          <img src={client2} />
-          <img src={client3} />
-          <img src={client4} />
-          <img src={client5} />
-          <img src={client6} />
+          <img src={client1} alt='client_img' />
+          <img src={client2} alt='client_img' />
+          <img src={client3} alt='client_img' />
+          <img src={client4} alt='client_img' />
+          <img src={client5} alt='client_img' />
+          <img src={client6} alt='client_img' />
         </div>
       </Container>
     </ClientsWrapper>
