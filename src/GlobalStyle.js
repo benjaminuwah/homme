@@ -14,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
     }
 
+    h3 {
+        font-size: 24px;
+    }
+
     p {
         color: #575757;
     }

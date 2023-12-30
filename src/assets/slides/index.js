@@ -1,5 +1,5 @@
-import banner1 from './slide_2.png';
-import banner2 from './slide_2.jpg';
+import banner2 from './slide_2.png';
+import banner1 from './slide_1.jpg';
 import banner3 from './slide_3.jpg';
 import banner4 from './slide_4.jpg';
 

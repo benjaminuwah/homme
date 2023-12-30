@@ -96,6 +96,7 @@ export const InteriorWrapper = styled.div`
 
         img {
             width: 800px;
+            height: 502px;
             object-fit: cover;
         }
     }
@@ -117,5 +118,53 @@ export const InteriorWrapper = styled.div`
         hr {
             display: none;
         }
+    }
+`;
+
+export const Arrow = styled.div`
+    display: flex;
+    padding: 20px;
+    /* position: absolute; */
+    z-index: 1;
+    bottom: 30px;
+    left: 30px;
+    gap: 20px
+`;
+
+export const ArrowIcon = styled.div`
+    padding: 10px;
+    cursor: pointer;
+    gap: 20px;
+`;
+
+export const Slide = styled.div`
+    margin-right: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url(${(props) => props.bg});
+    background-size: cover;
+    background-position: center;
+`;
+
+export const Designs = styled.div`
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .left {
+        width: 25%;
+    }
+
+    .right {
+        width: 75%;
+        gap: 30px;
     }
 `;
