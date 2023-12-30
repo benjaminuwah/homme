@@ -160,7 +160,7 @@ export const Designs = styled.div`
     }
 
     .left {
-        width: 25%;
+        width: 30%;
     }
 
     .right {
